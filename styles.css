@@ -1,8 +1,8 @@
 body {
-    background-color: FFFFFF;
+    background-color: white;
   }
   h1 {
-    color: blue;
+    color: black;
   }
   p {
     color: black;
@@ -39,7 +39,7 @@ body {
   /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpapercave.com/wp/wp2868363.jpg");
   
     /* Set a specific height */
     height: 50%;
@@ -123,19 +123,12 @@ body {
     background-color: #555;
   }
   
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-
   .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: D3D3D3;
+    color: black;
     text-align: center;
   }
