@@ -43,7 +43,7 @@ body {
   /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.cubecraft.net/attachments/2014-11-04_20-05-52-png.26297/");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/minecraftpackground.png");
   
     /* Set a specific height */
     height: 50%;
