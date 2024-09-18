@@ -1,11 +1,9 @@
-b<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
 <title>Ranvir Ranu - Portfolio</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="styles.css">
-<style>
-</style>
 <script src=""></script>
 <body>
     <div class="topnav">
@@ -17,13 +15,21 @@ b<!DOCTYPE html>
     <div class="hero-text">
       <h1>My name is Ranvir Ranu</h1>
       <p>and I am a Software Engineering student at UWO</p>
-      <button>Hire me please !</button>
     </div>
-  </div>
-
+</div>
     
-  <br> <h1> Work experience</h1>
-  <br><embed src="/RanvirRanu_Resume.pdf" style="width:100%">
+    
+<br> <h1> Work experience</h1>
+    <div class="popup" onclick="myFunction()"> Hire me Please!
+  <span class="popuptext" id="myPopup"><img src="RanvirRanu_Resume.jpg"></span>
+</div>
+    <script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 
     <br> <h1>Contact me!</h1>
     <br> <p1>Email rranu@uwo.ca <br>
