@@ -1,5 +1,7 @@
 body {
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
   h1 {
     color: black;
@@ -61,11 +63,6 @@ body {
     color: white;
   }
 
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
-  
   html {
     box-sizing: border-box;
   }
