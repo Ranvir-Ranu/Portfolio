@@ -4,7 +4,14 @@
 <title>Ranvir Ranu - Portfolio</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="styles.css">
-<script src=""></script>
+    
+<script src=""> // When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+    
 <body>
     <div class="topnav">
         <a class="active" href="#home">Home</a>
@@ -18,23 +25,16 @@
     </div>
 </div>
     
-    
 <br> <h1> Work experience</h1>
     <div class="popup" onclick="myFunction()"> 
-        <div class="hero-text"> <button >Hire me please !</button> </div>
+        <div class="hero-text"> <button class="button"> Hire me please !</button> </div>
   <span class="popuptext" id="myPopup"><img src="RanvirRanu_Resume.jpg"></span>
 </div>
     <script>
-// When the user clicks on <div>, open the popup
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
-</script>
 
-    <br> <h1>Contact me!</h1>
-    <br> <p1>Email rranu@uwo.ca <br>
-             Cell: +1-647-325-3224</p1><br>
+    <br><h1>Contact me!</h1>
+    <p1>Email rranu@uwo.ca <br>
+        Cell: +1-647-325-3224</p1><br>
 
     <div class="footer">
     <p>This is a footer</p>
